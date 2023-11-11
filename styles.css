@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("Images/ocean.jpg");
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.tourism-card {
+    text-align: center;
+    background-color: white;
+    font-family: "Roboto";
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 52px 0px;
+
+    @media (orientation: landscape) {
+        padding: 32px 0px;
+    }
+}
+
+.button {
+    height: 36px;
+    width: 138px;
+    color: white;
+    background-color: #25b1cc;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer !important;
+    outline: none !important;
+}
+
+.favourite-places-bg-container {
+    background-image: url("Images/towerbg.png");
+    background-size: cover;
+    min-height: 100vh;
+    padding: 24px;
+}
+
+.favourite-places-heading {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Roboto";
+    color: white;
+    margin-bottom: 24px;
+}
+
+.favourite-place-card-container {
+    padding: 22px;
+    background-color: white;
+    font-family: "Roboto";
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 24px;
+
+    @media (min-width: 768px) {
+        text-align: left;
+    }
+}
+
+.favourite-place-card-heading {
+    font-size: 23px;
+    font-weight: bold;
+    color: #0f0e46;
+}
+
+.favourite-place-card-description {
+    font-size: 15px;
+    color: #6c6b70;
+}
+
+.favourite-place-card-image {
+    height: 100px;
+    width: 100px;
+
+    @media (min-width: 768px) {
+        width: 80px;
+    }
+}
+
+.detailed-view-bg-container {
+    background-image: url("Images/seabg.png");
+    background-size: cover;
+    min-height: 100vh;
+    padding: 24px;
+}
+
+.detailed-view-heading {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Roboto";
+    color: white;
+    margin-bottom: 24px;
+}
+
+.detailed-view-card-container {
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.detailed-view-card-text-container {
+    padding: 16px;
+}
+
+.detailed-view-card-heading {
+    font-size: 24px;
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.detailed-view-card-description {
+    font-size: 15px;
+    color: #6c6b70;
+    font-family: "Roboto";
+}
